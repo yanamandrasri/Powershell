@@ -8,5 +8,5 @@ Connect-AzAccount
 # Create the resource group
 New-AzResourceGroup -Name $resourceGroupName -Location $location
 
-# Output the result
+# To Dispaly the result
 Write-Output "Resource group '$resourceGroupName' created in location '$location'."
